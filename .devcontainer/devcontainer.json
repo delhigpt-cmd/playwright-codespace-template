@@ -1,0 +1,10 @@
+{
+  "name": "Playwright Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20",
+  "postCreateCommand": "npm install && npx playwright install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-playwright.playwright"]
+    }
+  }
+}
